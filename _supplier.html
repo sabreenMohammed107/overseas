@@ -372,7 +372,7 @@
 			  						<td>Email</td>
 			  						<td>Country </td>
 								<td>Supplier Type</td>
-			  						<td>Documents </td>
+			  						<td><a href="#" >Documents</a> </td>
 			  						<td>
 			  							<a href="_edit_supplier.html" class="btn btn-info d-inline-block">edit</a>
 			  							<a href="#" onclick="delette('ٌRound')" class="btn d-inline-block btn-danger">delete</a>
@@ -404,31 +404,16 @@
 					<div class="col-12 p-3">
 						<form action="">
 							<div class="ms-auth-container row">
-								<div class="col-md-12 mb-3">
-									<label> pdf </label>
-									<div class="fileUpload">
-										<div class="upload-icon">
-											<img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
-											<input type="file" class="upload up" id="up" onchange="readURLFile(this);" />
-											<span class="upl" id="upload">Upload document</span>
-										</div>
-									</div>
-								</div>
+							
 								<div class="col-md-6 mb-3">
 									<div class="form-group">
-										<label class="exampleInputPassword1" for="exampleCheck1">#</label>
-										<input type="text" class="form-control" placeholder="#">
-									</div>
-								</div>
-								<div class="col-md-6 mb-3">
-									<div class="form-group">
-										<label class="exampleInputPassword1" for="exampleCheck1">*Supplier_Name</label>
+										<label class="exampleInputPassword1" for="exampleCheck1">*Supplier Name</label>
 										<input type="text" class="form-control" placeholder="Client Name">
 									</div>
 								</div>
 								<div class="col-md-6 mb-3">
 									<div class="form-group">
-										<label class="exampleInputPassword1" for="exampleCheck1">*Contact_Person</label>
+										<label class="exampleInputPassword1" for="exampleCheck1">*Contact Person</label>
 										<input type="text" class="form-control" placeholder="Contact Person">
 									</div>
 								</div>
@@ -441,22 +426,22 @@
 								<div class="col-md-6 mb-3">
 									<div class="ui-widget form-group">
 										<label>Supplier Type</label>
-										<select class="selectpicker form-control" data-live-search="true">
+										<select class=" form-control" data-live-search="true">
 											<option>Select ...</option>
-											<option>Mustard</option>
-											<option>Ketchup</option>
-											<option>Barbecue</option>
+											<option>نقل داخلى </option>
+											<option>إستخلاص جمارك</option>
+										
 										</select>
 									</div>
 								</div>
 								<div class="col-md-6 mb-3">
 									<div class="ui-widget form-group">
 										<label>Country</label>
-										<select class="selectpicker form-control" data-live-search="true">
+										<select class=" form-control" data-live-search="true">
 											<option>Select ...</option>
-											<option>Mustard</option>
-											<option>Ketchup</option>
-											<option>Barbecue</option>
+				  					<option>Egypt</option>
+				  					<option>Kuwait</option>
+				  					<option>Emarate</option>
 										</select>
 
 
@@ -481,6 +466,16 @@
 										<label class="exampleInputPassword1" for="exampleCheck1">Address</label>
 										<textarea id="newClint" class="form-control"
 												  placeholder="Address"></textarea>
+									</div>
+                </div>
+                <div class="col-md-12 mb-3">
+									<label> Supplier Document </label>
+									<div class="fileUpload">
+										<div class="upload-icon">
+											<img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+											<input type="file" class="upload up" id="up" onchange="readURLFile(this);" />
+											<span class="upl" id="upload">Upload document</span>
+										</div>
 									</div>
 								</div>
 							</div>
