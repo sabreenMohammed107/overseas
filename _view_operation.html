@@ -113,7 +113,8 @@
   				<span><i class="material-icons fs-16">assignment</i>Sales</span>
   			</a>
   			<ul id="contactsdropdown" class="collapse" aria-labelledby="basic-elements" data-parent="#side-nav-accordion">
-  				<li> <a href="_sales_quote.html">Sales Quote</a> </li>
+          <li> <a href="_sales_quote.html">Sales Quote</a> </li>
+          <li> <a href="_operation.html">Operations</a> </li>
 
   			</ul>
   		</li>
@@ -392,11 +393,11 @@
 						  				<div class="col-md-6 mb-3">
 						  					<div class="ui-widget form-group">
 						  						<label>Quote Code</label>
-						  						<select class="selectpicker form-control" data-live-search="true"disabled>
+						  						<select class=" form-control" data-live-search="true"disabled>
 						  							<option>Select ...</option>
-						  							<option>Mustard</option>
-						  							<option>Ketchup</option>
-						  							<option>Barbecue</option>
+						  							<option>Quote Code 1</option>
+						  							<option>Quote Code 2</option>
+						  							<option>Quote Code 3</option>
 						  						</select>
 						  					</div>
 						  				</div>
@@ -434,11 +435,11 @@
 				  			<div class="col-md-6 mb-3">
 				  				<div class="ui-widget form-group">
 				  					<label>Consignee</label>
-				  					<select class="selectpicker form-control" data-live-search="true"disabled>
+				  					<select class=" form-control" data-live-search="true"disabled>
 				  						<option>Select ...</option>
-				  						<option>Mustard</option>
-				  						<option>Ketchup</option>
-				  						<option>Barbecue</option>
+				  						<option>Consignee 1</option>
+				  						<option>Consignee 2</option>
+				  						<option>Consignee 3</option>
 				  					</select>
 				  				</div>
 				  			</div>
@@ -494,11 +495,76 @@
 				  		</div>
 				  	</form>
 						  		<div class="input-group d-flex justify-content-end text-center">
-						  			<a href="_sales_quote.html" class="btn btn-dark mx-2"> Cancel</a>
+						  			<a href="_operation.html" class="btn btn-dark mx-2"> Cancel</a>
 						  			<!-- <input type="button" value="Cancel" class="btn btn-dark mx-2" data-dismiss="modal" aria-label="Close"> -->
 						  			<input type="submit" value="Add" class="btn btn-success ">
 						  		</div>
-
+                  <form action="">
+                 
+                    <div class="ms-auth-container row">
+                      <div class="col-md-12 mb-3">
+                    <div class="tabbable-panel">
+                      <div class="tabbable-line">
+                        <ul class="nav nav-tabs " role="tablist">
+                          <li class="btn btn-light test">
+                            <a href="#tab_default_1" class="active" data-toggle="tab" role="tab">
+                        Expenses Data
+                            </a>
+      
+                          </li>
+                        </ul>
+                        <div class="tab-content test ">
+                          <div class="tab-pane active" id="tab_default_1">
+                            <!-- Add Expenses -->
+                            <div class="row">
+                              <div class="col-md-12">
+                          
+                                <div class="ms-panel">
+                            <div class="ms-panel-header d-flex justify-content-between">
+                              <!-- <h6>Expenses Data</h6> -->
+                              <!-- <a href="#" class="btn btn-dark"> add new </a> -->
+                            </div>
+                            <div class="ms-panel-body">
+      
+                              <div class="table-responsive">
+                                <table id="courseEval" class="dattable table table-striped thead-dark  w-100">
+                                  <thead>
+                                    <tr>
+                                      <th>#</th>
+                                      <th>Expense Type</th>
+                                      <th>Buy</th>
+                                      <th>Sale</th>
+                                      <th>Action</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+      
+                                    <tr>
+                                      <td>#</td>
+                                      <td>Expense Type</td>
+                                      <td>Buy</td>
+                                      <td>Sale</td>
+                                      <td>
+                                        
+                                        <!-- <a href="#" class="btn btn-info d-inline-block">edit</a> -->
+                                        <!-- <a href="#" onclick="delette('ٌRound')" class="btn d-inline-block btn-danger">delete</a> -->
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--End Expenses-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                      </div>
+                    </div>
+                  </form>
 						  	</div>
   						</div>
   					</div>
